@@ -1,0 +1,166 @@
+{
+  "schemes": [
+    {
+      "scheme_id": "PM_KISAN",
+      "name": "Pradhan Mantri Kisan Samman Nidhi",
+      "short_name": "PM-KISAN",
+      "description": "Income support scheme for eligible landholding farmer families.",
+      "ministry": "Ministry of Agriculture and Farmers Welfare",
+      "level": "Central",
+      "state": null,
+      "category": "Agriculture",
+      "status": "Active",
+
+      "benefits": {
+        "type": "Financial Assistance",
+        "amount": 6000,
+        "currency": "INR",
+        "frequency": "Annual",
+        "description": "Financial assistance provided to eligible farmer families."
+      },
+
+      "required_documents": [
+        "Aadhaar Card",
+        "Land Ownership Record",
+        "Bank Account Details"
+      ],
+
+      "application": {
+        "mode": "Online",
+        "official_url": "https://pmkisan.gov.in/",
+        "description": "Application and beneficiary services are available through the official PM-KISAN portal."
+      }
+    },
+
+    {
+      "scheme_id": "PMAY_G",
+      "name": "Pradhan Mantri Awaas Yojana - Gramin",
+      "short_name": "PMAY-G",
+      "description": "Housing assistance scheme for eligible rural households that meet the prescribed criteria.",
+      "ministry": "Ministry of Rural Development",
+      "level": "Central",
+      "state": null,
+      "category": "Housing",
+      "status": "Active",
+
+      "benefits": {
+        "type": "Housing Assistance",
+        "amount": null,
+        "currency": "INR",
+        "frequency": "As per applicable assistance norms",
+        "description": "Financial assistance for construction of a pucca house for eligible rural households."
+      },
+
+      "required_documents": [
+        "Aadhaar Card",
+        "Residence/Address Proof",
+        "Bank Account Details"
+      ],
+
+      "application": {
+        "mode": "Through Government/Local Authorities",
+        "official_url": "https://pmayg.nic.in/",
+        "description": "Implementation and beneficiary identification are carried out through the prescribed government process."
+      }
+    },
+
+    {
+      "scheme_id": "NSP_POST_MATRIC",
+      "name": "Post-Matric Scholarship Scheme",
+      "short_name": "Post-Matric Scholarship",
+      "description": "Scholarship support for eligible students belonging to specified categories and meeting applicable income and educational conditions.",
+      "ministry": "Government of India / Concerned Ministry",
+      "level": "Central",
+      "state": null,
+      "category": "Education",
+      "status": "Active",
+
+      "benefits": {
+        "type": "Scholarship",
+        "amount": null,
+        "currency": "INR",
+        "frequency": "As per applicable scholarship rules",
+        "description": "Financial support for eligible post-matric students."
+      },
+
+      "required_documents": [
+        "Aadhaar Card",
+        "Income Certificate",
+        "Caste/Category Certificate",
+        "Student ID",
+        "Bank Account Details"
+      ],
+
+      "application": {
+        "mode": "Online",
+        "official_url": "https://scholarships.gov.in/",
+        "description": "Eligible students can apply through the National Scholarship Portal where the relevant scheme is available."
+      }
+    },
+
+    {
+      "scheme_id": "PM_SVANIDHI",
+      "name": "PM Street Vendor's AtmaNirbhar Nidhi",
+      "short_name": "PM SVANidhi",
+      "description": "Working-capital support scheme for eligible street vendors.",
+      "ministry": "Ministry of Housing and Urban Affairs",
+      "level": "Central",
+      "state": null,
+      "category": "Self Employment",
+      "status": "Active",
+
+      "benefits": {
+        "type": "Working Capital Loan",
+        "amount": null,
+        "currency": "INR",
+        "frequency": "As per applicable loan cycle",
+        "description": "Working-capital support for eligible street vendors subject to scheme conditions."
+      },
+
+      "required_documents": [
+        "Identity Proof",
+        "Street Vendor Certificate/Letter of Recommendation",
+        "Bank Account Details"
+      ],
+
+      "application": {
+        "mode": "Online/Through Lending Institutions",
+        "official_url": "https://pmsvanidhi.mohua.gov.in/",
+        "description": "Applications are processed through the prescribed PM SVANidhi mechanism."
+      }
+    },
+
+    {
+      "scheme_id": "NSAP_IGNOAPS",
+      "name": "Indira Gandhi National Old Age Pension Scheme",
+      "short_name": "IGNOAPS",
+      "description": "Social assistance pension for eligible elderly persons belonging to prescribed economically vulnerable households.",
+      "ministry": "Ministry of Rural Development",
+      "level": "Central",
+      "state": null,
+      "category": "Social Security",
+      "status": "Active",
+
+      "benefits": {
+        "type": "Social Assistance Pension",
+        "amount": null,
+        "currency": "INR",
+        "frequency": "Monthly",
+        "description": "Pension assistance according to applicable central and state provisions."
+      },
+
+      "required_documents": [
+        "Aadhaar Card",
+        "Age Proof",
+        "Bank Account Details",
+        "BPL/Eligibility Proof where applicable"
+      ],
+
+      "application": {
+        "mode": "Through Government/Local Authorities",
+        "official_url": "https://nsap.nic.in/",
+        "description": "Application and beneficiary processing follow the applicable government procedure."
+      }
+    }
+  ]
+}

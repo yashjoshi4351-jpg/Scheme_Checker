@@ -1,0 +1,127 @@
+{
+  "rules": [
+    {
+      "scheme_id": "PM_KISAN",
+      "logic": "AND",
+      "rules": [
+        {
+          "field": "farmer",
+          "operator": "=",
+          "value": true
+        },
+        {
+          "field": "land_ownership",
+          "operator": "=",
+          "value": true
+        },
+        {
+          "field": "age",
+          "operator": ">=",
+          "value": 18
+        }
+      ],
+      "exclusions": []
+    },
+
+    {
+      "scheme_id": "PMAY_G",
+      "logic": "AND",
+      "rules": [
+        {
+          "field": "rural_urban",
+          "operator": "=",
+          "value": "Rural"
+        },
+        {
+          "field": "house_ownership",
+          "operator": "=",
+          "value": false
+        },
+        {
+          "field": "age",
+          "operator": ">=",
+          "value": 18
+        }
+      ],
+      "exclusions": []
+    },
+
+    {
+      "scheme_id": "NSP_POST_MATRIC",
+      "logic": "AND",
+      "rules": [
+        {
+          "field": "student_status",
+          "operator": "=",
+          "value": true
+        },
+        {
+          "field": "education_level",
+          "operator": "IN",
+          "value": [
+            "Class 11-12",
+            "Diploma",
+            "Undergraduate",
+            "Postgraduate"
+          ]
+        },
+        {
+          "field": "annual_income",
+          "operator": "<=",
+          "value": 250000
+        },
+        {
+          "field": "category",
+          "operator": "IN",
+          "value": [
+            "SC",
+            "ST",
+            "OBC"
+          ]
+        }
+      ],
+      "exclusions": []
+    },
+
+    {
+      "scheme_id": "PM_SVANIDHI",
+      "logic": "AND",
+      "rules": [
+        {
+          "field": "street_vendor",
+          "operator": "=",
+          "value": true
+        },
+        {
+          "field": "employment_status",
+          "operator": "=",
+          "value": "Self-employed"
+        },
+        {
+          "field": "age",
+          "operator": ">=",
+          "value": 18
+        }
+      ],
+      "exclusions": []
+    },
+
+    {
+      "scheme_id": "NSAP_IGNOAPS",
+      "logic": "AND",
+      "rules": [
+        {
+          "field": "age",
+          "operator": ">=",
+          "value": 60
+        },
+        {
+          "field": "bpl_status",
+          "operator": "=",
+          "value": true
+        }
+      ],
+      "exclusions": []
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "fields": {
+    "age": {
+      "type": "integer",
+      "required": true,
+      "description": "Age of the citizen in years",
+      "min": 0,
+      "max": 120
+    },
+    "gender": {
+      "type": "string",
+      "required": true,
+      "allowed_values": [
+        "male",
+        "female",
+        "other"
+      ],
+      "description": "Gender of the citizen"
+    },
+    "state": {
+      "type": "string",
+      "required": true,
+      "description": "State or Union Territory of residence"
+    },
+    "district": {
+      "type": "string",
+      "required": false,
+      "description": "District of residence"
+    },
+    "annual_income": {
+      "type": "number",
+      "required": true,
+      "min": 0,
+      "description": "Annual family income in Indian Rupees"
+    },
+    "category": {
+      "type": "string",
+      "required": true,
+      "allowed_values": [
+        "general",
+        "obc",
+        "sc",
+        "st",
+        "ews"
+      ],
+      "description": "Social category of the citizen"
+    },
+    "occupation": {
+      "type": "string",
+      "required": false,
+      "allowed_values": [
+        "student",
+        "farmer",
+        "self_employed",
+        "employed",
+        "unemployed",
+        "business",
+        "other"
+      ],
+      "description": "Primary occupation of the citizen"
+    },
+    "student": {
+      "type": "boolean",
+      "required": false,
+      "description": "Whether the citizen is currently a student"
+    },
+    "disability": {
+      "type": "boolean",
+      "required": false,
+      "description": "Whether the citizen has a disability"
+    },
+    "disability_percentage": {
+      "type": "number",
+      "required": false,
+      "min": 0,
+      "max": 100,
+      "description": "Percentage of disability, if applicable"
+    },
+    "land_holding": {
+      "type": "number",
+      "required": false,
+      "min": 0,
+      "description": "Land owned by the citizen in hectares"
+    },
+    "employment_status": {
+      "type": "string",
+      "required": false,
+      "allowed_values": [
+        "employed",
+        "unemployed",
+        "self_employed",
+        "student",
+        "retired",
+        "other"
+      ],
+      "description": "Current employment status"
+    },
+    "marital_status": {
+      "type": "string",
+      "required": false,
+      "allowed_values": [
+        "single",
+        "married",
+        "widowed",
+        "divorced",
+        "other"
+      ],
+      "description": "Marital status of the citizen"
+    },
+    "residence_type": {
+      "type": "string",
+      "required": false,
+      "allowed_values": [
+        "rural",
+        "urban"
+      ],
+      "description": "Type of residential area"
+    },
+    "bank_account": {
+      "type": "boolean",
+      "required": false,
+      "description": "Whether the citizen has a bank account"
+    },
+    "aadhaar_linked": {
+      "type": "boolean",
+      "required": false,
+      "description": "Whether the citizen's Aadhaar is linked where applicable"
+    }
+  }
+}
